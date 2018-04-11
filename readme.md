@@ -12,12 +12,6 @@ Adobe Ligtroom CC 用のプリセットです。
 # プリセットの紹介
 `9bicify` - 渋めで紫がかったプリセットです。[Flickr](https://www.flickr.com/photos/9bic/)にアップロードする写真はこれをベースにしています。
 
-`Canonify` - Canonのカメラ背面液晶風です。ジョークプリセットです。
-
-`Hinoki` - 木造の建物の室内をターゲットにしたプリセットです。
-
-`Warmness` - 柔らかめ+明るめのプリセットです。
-
 `mecabify, mecabify-portrait` - [mecab](https://www.flickr.com/photos/mecab/)氏の写真を意識したプリセットです。このプリセットのみ、コントラスト補正も入れていないので微調整してください。また、WBは青めにした方がmecab氏の写真に近づきます。
 `mecabify-portrait`は、赤みを人物に合わせています。
 
