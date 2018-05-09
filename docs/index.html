@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>9bic/lrpresets Demo</title>
+    <meta name="description" content="9bic/lrpresets demo page">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/bulma.css">
+    <link rel="stylesheet" href="css/ImageComparison.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/ImageComparison.js"></script>
+    <script>
+      document.addEventListener('DOMContentLoaded', domReady);
+      function domReady() {
+        var imageComparisonCollection = document.querySelectorAll('.comparison-container');
+        for (var i = 0; i < imageComparisonCollection.length; i++) {
+          var imageWidget = imageComparisonCollection[i];
+          var images = imageWidget.querySelectorAll('.comparison-image');
+          new ImageComparison({
+            container: imageWidget,
+            startPosition: imageWidget.getAttribute('start-position'),
+            data: [
+              {
+                image: images[0],
+                label: 'before'
+              },
+              {
+                image: images[1],
+                label: 'after'
+              }
+            ],
+          });
+        }
+      }
+    </script>
+  </head>
+  <body>
+  <div class="container is-fluid">
+    <section class="section">
+      <h1 class="title">lrpresets Image comparison Demo</h1>
+      <p>Cool comparison engine by <a href="https://github.com/M-Ulyanov/ImageComparison">M-Ulyanov/ImageComparison</a></p>
+    </section>
+    <section id="cubichrome" class="section">
+      <h2 class="subtitle">9bichrome</h2>
+      <hr>
+
+      <div class="wrapper has-text-centered">
+        <div class="comparison-container">
+          <img class="comparison-image" src="./resources/L1008385.jpg" alt="">
+          <img class="comparison-image" src="./resources/L1008385-2.jpg" alt="">
+        </div>
+      </div>
+
+      <div class="wrapper has-text-centered">
+        <div class="comparison-container">
+          <img class="comparison-image" src="./resources/L1000419.jpg" alt="">
+          <img class="comparison-image" src="./resources/L1000419-2.jpg" alt="">
+        </div>
+      </div>
+
+      <div class="wrapper has-text-centered">
+        <div class="comparison-container">
+          <img class="comparison-image" src="./resources/A12V7268.jpg" alt="">
+          <img class="comparison-image" src="./resources/A12V7268-2.jpg" alt="">
+        </div>
+      </div>
+
+      <div class="wrapper has-text-centered">
+        <div class="comparison-container">
+          <img class="comparison-image" src="./resources/DSCF4081.jpg" alt="">
+          <img class="comparison-image" src="./resources/DSCF4081-2.jpg" alt="">
+        </div>
+      </div>
+
+      <div class="wrapper has-text-centered">
+        <div class="comparison-container">
+          <img class="comparison-image" src="./resources/L1000062.jpg" alt="">
+          <img class="comparison-image" src="./resources/L1000062-2.jpg" alt="">
+        </div>
+      </div>
+
+      <div class="wrapper has-text-centered">
+        <div class="comparison-container">
+          <img class="comparison-image" src="./resources/L1000193.jpg" alt="">
+          <img class="comparison-image" src="./resources/L1000193-2.jpg" alt="">
+        </div>
+      </div>
+
+      <div class="wrapper has-text-centered">
+        <div class="comparison-container">
+          <img class="comparison-image" src="./resources/L1009905.jpg" alt="">
+          <img class="comparison-image" src="./resources/L1009905-2.jpg" alt="">
+        </div>
+      </div>
+
+      <div class="wrapper has-text-centered">
+        <div class="comparison-container">
+          <img class="comparison-image" src="./resources/DSCF4124.jpg" alt="">
+          <img class="comparison-image" src="./resources/DSCF4124-2.jpg" alt="">
+        </div>
+      </div>
+
+      <div class="wrapper has-text-centered">
+        <div class="comparison-container">
+          <img class="comparison-image" src="./resources/A12V7028.jpg" alt="">
+          <img class="comparison-image" src="./resources/A12V7028-2.jpg" alt="">
+        </div>
+      </div>
+
+    </section>
+    <section id="mecabify" class="section">
+      <h2 class="subtitle">mecabify</h2>
+      <hr>
+      <p>now printing...</p>
+    </section>
+  </div>
+  </body>
+</html>
