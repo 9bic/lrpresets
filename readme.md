@@ -11,7 +11,14 @@ My Lightroom Developing presets, 9bichrome and mecabify.
 
 1. Open Develop module and Presets panel.
 2. Right click `User Presets` and click `import...`
-3. select the preset files.
+3. Select the preset files.
+
+## Lightroom CC
+
+1. Open Edit panel.
+2. Click `Presets` button at the bottom, open preset pane.
+3. Click  `...`  button at the top, Click `Open Presets Folder`.
+4. D&D the preset files to the folder.
 
 # Demo
 https://9bic.github.io/lrpresets/
