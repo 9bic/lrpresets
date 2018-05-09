@@ -5,3 +5,9 @@
 .comparison-image {
     width: 1000px;
 }
+
+.logo {
+    margin-right: 0.1em;
+    height:1.2em;
+    vertical-align:bottom;
+}
