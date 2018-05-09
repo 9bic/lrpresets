@@ -1,18 +1,17 @@
 # lrpresets
 
-Adobe Ligtroom CC 用のプリセットです。
+My Lightroom Developing presets, 9bichrome and mecabify.
 
-# インストール方法
-ファイルをダウンロードして現像モジュール「プリセット」にある「ユーザープリセット」を右クリックしてメニューの「読み込み...」をクリックします。ファイル読み込みダイアログが表示されるのでダウンロードしたファイルを選択してください。
+# Installation
 
-# ワークフロー
-プリセット名をクリックして適用します。
-各プリセットには露光量補正がかかっていないので、写真の雰囲気に合わせて微調整してください。
+- Download[lrpresets](https://github.com/9bic/lrpresets/releases/latest)
+- Extract them
 
-# プリセットの紹介
-`9bicify` - 渋めで紫がかったプリセットです。[Flickr](https://www.flickr.com/photos/9bic/)にアップロードする写真はこれをベースにしています。
+## Lightroom Classic
 
-`mecabify` - [mecab](https://www.flickr.com/photos/mecab/)氏の写真を意識したプリセットです。このプリセットのみ、コントラスト補正も入れていないので微調整してください。また、WBは青めにした方がmecab氏の写真に近づきます。
+1. Open Develop module and Presets panel.
+2. Right click `User Presets` and click `import...`
+3. select the preset files.
 
-# サンプル
-準備中...
+# Demo
+https://9bic.github.io/lrpresets/
