@@ -1,10 +1,13 @@
+
+<p align="center"><img width="128px" src="https://9bic.github.io/lrpresets/resources/logo.png"></p>
+
 # lrpresets
 
 My Lightroom Developing presets, 9bichrome and mecabify.
 
 # Installation
 
-- Download[lrpresets](https://github.com/9bic/lrpresets/releases/latest)
+- Download [lrpresets](https://github.com/9bic/lrpresets/releases/latest)
 - Extract them
 
 ## Lightroom Classic
